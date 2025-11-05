@@ -35,7 +35,7 @@ function moveDodgerLeft() {
   const left = parseInt(leftNumbers, 10);
 
   if (left > 0) {
-    dodger.style.left = `${left - 1}px`;
+    dodger.style.left = `${left - 5}px`;
   }
 
   if (left <= 0) {
@@ -49,7 +49,7 @@ function moveDodgerRight() {
   const left = parseInt(leftNumbers, 10);
 
   if (left > 0) {
-    dodger.style.left = `${left + 1}px`;
+    dodger.style.left = `${left + 5}px`;
   }
 
   if (left >= 360) {
@@ -63,7 +63,7 @@ function moveDodgerUp() {
   const bottom = parseInt(bottomNumbers, 10);
 
   if (bottom < 380) {
-    dodger.style.bottom = `${bottom + 1}px`;
+    dodger.style.bottom = `${bottom + 5}px`;
   }
 
   if (bottom >= 380) {
@@ -77,7 +77,7 @@ function moveDodgerDown() {
   const bottom = parseInt(bottomNumbers, 10);
 
   if (bottom > 0) {
-    dodger.style.bottom = `${bottom - 1}px`;
+    dodger.style.bottom = `${bottom - 5}px`;
   }
 
   if (bottom <= 0) {
