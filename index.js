@@ -9,22 +9,22 @@ dodger.style.bottom = "190px";
 document.addEventListener("keydown", function (e) {
   if (e.key === "ArrowLeft") {
     moveDodgerLeft();
-    movementSound.play();
+    playMovementSound();
   }
 
     if (e.key === "ArrowRight") {
     moveDodgerRight();
-    movementSound.play();
+    playMovementSound();
   }
 
      if (e.key === "ArrowUp") {
     moveDodgerUp();
-    movementSound.play();
+    playMovementSound();
   }
 
     if (e.key === "ArrowDown") {
     moveDodgerDown();
-    movementSound.play();
+    playMovementSound();
   }
 
 });
